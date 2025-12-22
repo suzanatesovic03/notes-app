@@ -1,0 +1,40 @@
+{
+  "notes": [
+    {
+      "id": "1",
+      "title": "Grocery Shopping",
+      "text": "Buy milk, bread, and eggs.",
+      "tag": "private"
+    },
+    {
+      "id": "2",
+      "title": "Team Meeting",
+      "text": "Prepare the project presentation.",
+      "tag": "job"
+    },
+    {
+      "id": "3",
+      "title": "Travel Booking",
+      "text": "Book the hotel and tickets for vacation.",
+      "tag": "private"
+    },
+    {
+      "id": "4",
+      "title": "New Developer Tasks",
+      "text": "Assign tasks for the next sprint.",
+      "tag": "job"
+    },
+    {
+      "id": "5",
+      "title": "Workout Session",
+      "text": "Go to the gym at 6 PM.",
+      "tag": "private"
+    },
+    {
+      "id": "6",
+      "title": "Client Call",
+      "text": "Discuss project requirements with the client.",
+      "tag": "job"
+    }
+  ]
+}
