@@ -1,24 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Lato&family=Playfair+Display&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-body{
-  background-color: #0E1434;
+@import url("https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Lato&family=Playfair+Display&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+body {
+  background-color: #0e1434;
 }
-*{
+* {
   margin: 0;
   font-family: "Quicksand";
   color: #333;
 }
 
-.content{
+.content {
   max-width: 500px;
   margin: 40px auto;
   padding: 20px;
 }
 .notes-list {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* 2 kolone */
-  gap: 20px; /* razmak između beleški */
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
   padding: 20px;
-
 }
 
 .note-preview {
@@ -33,15 +32,15 @@ body{
   position: relative;
 }
 
-.note-preview h2{
+.note-preview h2 {
   font-size: 16px;
   padding-bottom: 10px;
-  color: #E2E2E2;
+  color: #e2e2e2;
 }
 
-.note-preview p{
+.note-preview p {
   font-size: 12px;
-  color: #BEBEBE;
+  color: #bebebe;
 }
 
 .note-preview:hover {
@@ -53,7 +52,7 @@ body{
   position: absolute;
   bottom: 10px;
   right: 10px;
-  background-color: #E93177;
+  background-color: #e93177;
   color: white;
   border: none;
   padding: 6px 12px;
@@ -63,74 +62,73 @@ body{
 }
 
 .add-note-btn {
-  display: block; /* Postavlja dugme kao block element */
-  width: 50px; /* Širina dugmeta */
-  height: 50px; /* Visina dugmeta */
-  background-color: #3756F4; /* Boja pozadine */
-  color: white; /* Boja teksta */
-  border: none; /* Uklanja ivice */
-  border-radius: 25px; /* Zaobljeni uglovi */
-  font-size: 32px; /* Velicina fonta */
-  text-align: center; /* Centriranje teksta unutar dugmeta */
-  cursor: pointer; /* Kursor kao ruka */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Senka oko dugmeta */
-  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Efekat prilikom prelaska miša */
-  margin: 0 auto; /* Centriranje dugmeta */
+  display: block;
+  width: 50px;
+  height: 50px;
+  background-color: #3756f4;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  font-size: 32px;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin: 0 auto;
 }
 
 .add-note-btn:hover {
-  transform: scale(1.1); /* Povećava dugme pri prelasku miša */
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Intenzivira senku prilikom hover efekta */
+  transform: scale(1.1);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 
-.btn a{
+.btn a {
   text-decoration: none;
 }
-.search-bar{
+.search-bar {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.search-bar input{
+.search-bar input {
   background-color: rgba(254, 254, 254, 0.2);
   border: none;
   border-radius: 10px;
   width: 250px;
   height: 20px;
-  color: #E2E2E2;
+  color: #e2e2e2;
   padding: 10px;
 }
 
-.add{
+.add {
   text-align: center;
 }
 
-.add h2{
+.add h2 {
   color: #fff;
 }
 
-.add form{
+.add form {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
 }
-.add label{
-  color: #E2E2E2;
+.add label {
+  color: #e2e2e2;
   padding: 10px;
 }
-.add input{
+.add input {
   background-color: rgba(254, 254, 254, 0.2);
   border: none;
   border-radius: 20px;
   width: 300px;
   height: 30px;
-  color: #E2E2E2;
+  color: #e2e2e2;
   padding: 10px;
 }
-.add textarea{
+.add textarea {
   background-color: rgba(254, 254, 254, 0.2);
   border: none;
   border-radius: 20px;
@@ -138,24 +136,24 @@ body{
   height: 100px;
   margin-bottom: 10px;
   padding: 10px;
-  color: #E2E2E2;
+  color: #e2e2e2;
 }
-.add button{
+.add button {
   color: #fff;
-  background-color: #3756F4;
+  background-color: #3756f4;
   border: none;
   border-radius: 10px;
   padding: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Senka oko dugmeta */
-  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Efekat prilikom prelaska miša */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.add button:hover{
-  transform: scale(1.1); /* Povećava dugme pri prelasku miša */
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Intenzivira senku prilikom hover efekta */
+.add button:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 
-.filters-btn{
+.filters-btn {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -163,10 +161,10 @@ body{
   padding: 20px;
 }
 
-.filters-btn button{
+.filters-btn button {
   padding: 5px 10px;
   color: #ffffff;
-  background-color: #3756F4;
+  background-color: #3756f4;
   border: none;
   border-radius: 4px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -174,6 +172,6 @@ body{
 }
 
 .filters-btn button:hover {
-  transform: scale(1.1); /* Povećava dugme pri prelasku miša */
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Intenzivira senku prilikom hover efekta */
+  transform: scale(1.1);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
